@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/GitHub/mathematics-lms/**)",
+      "Bash(cp:*)",
+      "Bash(robocopy:*)",
+      "Bash(xcopy:*)",
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(head:*)",
+      "Bash(done)",
+      "Bash(do echo \"File: $file\")",
+      "Bash(grep:*)",
+      "Bash(while read file)",
+      "Bash(tree:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run type-check:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
